@@ -1,0 +1,27 @@
+
+@"
+# Environnement virtuel
+venv/
+env/
+ENV/
+
+# Fichiers d'environnement
+.env
+src/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+"@ | Out-File -FilePath ".gitignore" -Encoding utf8
